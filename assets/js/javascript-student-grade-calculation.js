@@ -34,4 +34,6 @@ if ((gradeNote < 0) || (gradeNote > 100)) {
   console.log("Geçer");
 } else if ((gradeNote >= 0) && (gradeNote <= 49)) {
   console.log("Kaldı");
+} else {
+  console.log("Lütfen Geçerli Bir Değer Giriniz");
 }
